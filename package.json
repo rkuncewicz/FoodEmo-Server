@@ -1,10 +1,25 @@
 {
-    "name": "food-emo",
-    "main": "server.js",
-    "dependencies": {
-        "express" : "~4.5.1",
-        "mongoose" : "~3.8.0",
-        "body-parser" : "~1.4.2",
-        "method-override" : "~2.0.2"        
-    }
+  "name": "food-emo",
+  "version": "0.0.1",
+  "description": "This is a recipe site based on trying to get you the right recipe based on your mood. Built on the MEAN stack.",
+  "author": {
+    "name": "Robert Kuncewicz",
+    "email": "rkuncewicz@gmail.com",
+    "url": "http://rkuncewicz.com"
+  },
+  "main": "server.js",
+  "dependencies": {
+    "express": "~4.5.1",
+    "mongoose": "~3.8.0",
+    "body-parser": "~1.4.2",
+    "method-override": "~2.0.2"
+  },
+  "devDependencies": {
+    "gulp": "~3.8.8",
+    "gulp-rename": "~1.2.0",
+    "gulp-concat": "~2.4.1",
+    "gulp-uglify": "~1.0.1",
+    "gulp-jshint": "~1.8.4",
+    "gulp-sass": "~0.7.3"
+  }
 }
